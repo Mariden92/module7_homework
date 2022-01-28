@@ -1,7 +1,8 @@
 //true
-function first(){
     const object = {string:1,b:2}
     const string = "string"
+function first(){
+
 if (string in object){
 console.log (true)
 }
@@ -12,10 +13,10 @@ else {
 first(string,object);
 
 //false
-
-function second (){
     const object = {a:1,b:2}
     const string = "string"
+function second (){
+
 if (string in object){
 console.log (true)
 }
